@@ -7,7 +7,7 @@ public class Inventario {
 	 * REMOVE ALL PARA BORRAR TODO EL CONTENIDO DE LA LISTA
 	 */
 	public void vaciar() {
-		lista.removeAll(lista);
+		lista.clear();
 	}
 	//add para añadir la mascota a la lista
 	public void insertaMascota(Mascotas a) {
